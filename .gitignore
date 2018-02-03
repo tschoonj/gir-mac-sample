@@ -1,0 +1,7 @@
+.libs/
+*.dylib
+*.gir
+*.la
+*.lo
+*.o
+*.typelib
