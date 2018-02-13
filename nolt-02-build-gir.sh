@@ -11,6 +11,7 @@ scanner_flags="$scanner_flags --library=sample"
 scanner_flags="$scanner_flags --include=GObject-2.0"
 scanner_flags="$scanner_flags --pkg-export=sample"
 scanner_flags="$scanner_flags --output Sample-1.0.gir"
+scanner_flags="$scanner_flags --library-path=."
 
 set -x
 g-ir-scanner $scanner_flags greeter.c greeter.h
